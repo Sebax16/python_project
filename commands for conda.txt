@@ -1,0 +1,16 @@
+command to install geopandas:
+conda install geopandas
+
+command to install networkx:
+conda install networkx
+
+command to install osmnx and create a environment virtual called ox:
+conda create -n ox -c conda-forge --strict-channel-priority osmnx
+
+# To activate this environment, use
+#
+#     $ conda activate ox
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
